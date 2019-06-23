@@ -13,7 +13,6 @@ window.onload = function() {
 
 	let input = document.getElementById("celsius");
 	input.addEventListener("input", function(event) {
-		event.preventDefault();
 		display(this.value);
 	});
 };
