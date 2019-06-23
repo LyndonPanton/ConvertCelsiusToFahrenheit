@@ -14,6 +14,7 @@ body, html {
 	color: black;
 }
 
+
 /* HEADER */
 h1 {
 	margin: 0;
@@ -25,6 +26,20 @@ header {
 	color: black;
 }
 
+
+/* MAIN */
+#celsius {
+	border: none;
+	border-bottom: 1px black solid;
+	min-width: 20%;
+	background-color: transparent;
+	text-align: center;
+}
+
+#celsius::placeholder {
+	text-align: center;
+	font-style: italic;
+}
 
 /* FOOTER */
 footer {
