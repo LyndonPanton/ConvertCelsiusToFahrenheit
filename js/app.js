@@ -6,4 +6,8 @@ window.onload = function() {
 	function convert(celsius) {
 		return (celsius * (5 / 9)) + 32;
 	}
+
+	function display(value) {
+		document.getElementById("display-output").textContent = convert(value);
+	}
 };
