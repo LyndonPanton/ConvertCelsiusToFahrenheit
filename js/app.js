@@ -11,9 +11,9 @@ window.onload = function() {
 		document.getElementById("display-output").textContent = convert(value);
 	}
 
-	let form = document.getElementById("form");
-	form.addEventListener("submit", function(event) {
+	let input = document.getElementById("celsius");
+	input.addEventListener("input", function(event) {
 		event.preventDefault();
-		display(this.children[0].children[0].value);
+		display(this.value);
 	});
 };
