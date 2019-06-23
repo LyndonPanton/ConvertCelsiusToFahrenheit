@@ -23,3 +23,30 @@ h1 {
 header {
 	padding-top: 10vh;
 }
+
+
+/* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	padding: 2vh 0;
+	background-color: white;
+}
+
+.more-link {
+	color: black;
+}
+
+#copyright {
+	display: block;
+	padding-bottom: 1vh;
+}
+
+#more {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	font-size: 1.3em;
+}
