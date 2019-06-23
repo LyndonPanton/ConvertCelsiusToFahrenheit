@@ -28,6 +28,10 @@ header {
 
 
 /* MAIN */
+main {
+	padding-top: 25vh;
+}
+
 #celsius {
 	border: none;
 	border-bottom: 1px black solid;
