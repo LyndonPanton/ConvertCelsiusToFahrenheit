@@ -4,7 +4,7 @@ window.onload = function() {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
 	function convert(celsius) {
-		return (celsius * (5 / 9)) + 32;
+		return (celsius * (9/ 5)) + 32;
 	}
 
 	function display(value) {
