@@ -10,4 +10,10 @@ window.onload = function() {
 	function display(value) {
 		document.getElementById("display-output").textContent = convert(value);
 	}
+
+	let form = document.getElementById("form");
+	form.addEventListener("submit", function(event) {
+		event.preventDefault();
+		
+	});
 };
