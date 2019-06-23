@@ -38,6 +38,18 @@ footer {
 	color: black;
 }
 
+.more-link:active {
+	color: red !important;
+}
+
+.more-link:focus {
+	color: orange;
+}
+
+.more-link:hover {
+	color: darksalmon;
+}
+
 #copyright {
 	display: block;
 	padding-bottom: 1vh;
