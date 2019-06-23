@@ -30,6 +30,7 @@ header {
 /* MAIN */
 main {
 	padding-top: 25vh;
+	font-size: 2em;
 }
 
 #celsius {
@@ -37,6 +38,7 @@ main {
 	border-bottom: 1px black solid;
 	min-width: 20%;
 	background-color: transparent;
+	font-size: 1em;
 	text-align: center;
 }
 
