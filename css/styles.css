@@ -13,3 +13,13 @@ body, html {
 	font-weight: normal;
 	color: black;
 }
+
+/* HEADER */
+h1 {
+	margin: 0;
+	text-decoration: underline;
+}
+
+header {
+	padding-top: 10vh;
+}
